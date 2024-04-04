@@ -8,6 +8,7 @@ body {
 .sticky-header {
   font-family: 'Mango', sans-serif;
   font-size: 45px;
+  text-decoration: none;
   color: #6B9797;
   background-color: #FFFFFF;
   text-align: center;
