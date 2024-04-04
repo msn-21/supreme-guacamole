@@ -28,8 +28,6 @@ main {
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -66,8 +64,14 @@ main {
   height: auto;
 }
 
+.game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .game-card {
-  max-width: 800px;
+  max-width: 30%;
   margin: 50px auto;
   padding: 20px;
   background-color: #6B9797;
