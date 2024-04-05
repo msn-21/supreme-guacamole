@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brainie - Algebra Helper 101</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="sticky-header">
+  <h1>Algebra Helper 101</h1>
+</header>
+
+<main class="game-container">
+  <h2>Brainie</h2>
+  <p>Description: Solve the problems before Brainie's head fills with numbers!</p>
+  <iframe src="https://www.mathplayground.com/mobile/brainie/index.html" frameborder="0" class="game-container"></iframe>
+  <button onclick="toggleFullScreen()">Full Screen</button>
+</main>
+
+<script>
+  function toggleFullScreen() {
+    var iframe = document.querySelector('.game-iframe');
+    if (!document.fullscreenElement) {
+      iframe.requestFullscreen();
+    } else {
+      document.exitFullscreen();
+    }
+  }
+</script>
+</body>
+</hmtl>
